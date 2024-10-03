@@ -1,2 +1,2 @@
 # first-project
-http://127.0.0.1:5500/css/index.html
+https://chipisasha.github.io/first-project/
