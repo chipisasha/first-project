@@ -1,0 +1,267 @@
+.header {
+    background-color: #3f454b;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 63px;
+    font-family: Nico Moji;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(35, 225, 212);
+
+}
+
+.nav__link:hover {
+    transition: 0.5s;
+    color: pink;
+}
+
+.logo__text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Architects Daughter", cursive;
+
+}
+
+
+
+.logo__image {
+    margin-right: 50px;
+}
+
+.nav {
+    width: 60%;
+}
+
+/* HERO BLOCK */
+.hero-block {
+    background-color: #4A525A;
+}
+
+.container_hero-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0px 91px;
+}
+
+.hero-block__title {
+    font-family: "Architects Daughter", cursive;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(207, 199, 199);
+    margin-bottom: 30px;
+}
+
+.hero-block__content {
+    margin-left: 250px;
+}
+
+.hero-block__text {
+    color: rgb(228, 228, 228);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hero-block__link {
+    background-color: rgb(226, 163, 0);
+    padding: 14px 15px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(255, 212, 105);
+    border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+    background-color: #4A525A;
+}
+
+.container_about {
+    padding: 120px 0px 100px 0px;
+}
+
+.about__title {
+    color: rgb(35, 225, 212);
+    font-family: "Architects Daughter", cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about__content {
+    justify-content: space-between;
+    align-items: center;
+    width: 120%;
+    display: flex;
+}
+
+.skills {
+    padding-top: 50px;
+    width: 600px;
+}
+
+.skills__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skills__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.skills__item {
+    color: rgb(35, 225, 212);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skills__outside {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+.skills__inside1 {
+    height: 100%;
+    width: 47%;
+    background-color: rgb(0, 196, 240);
+}
+
+.skills__inside2 {
+    height: 100%;
+    width: 37%;
+    background-color: rgb(0, 196, 240);
+}
+
+.skills__inside3 {
+    height: 100%;
+    width: 11%;
+    background-color: rgb(0, 196, 240);
+}
+
+/* VIDEO */
+.video {
+    background-color: #4A525A;
+}
+
+.container_video {
+    padding: 70px 0px 98px;
+}
+
+.video__title {
+    color: rgb(35, 225, 212);
+    font-family: "Architects Daughter", cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.video__video {
+    width: 100%;
+    height: 650px;
+    border: 50px solid dimgrey;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #3f454b;
+    padding: 9px;
+}
+
+.container_footer {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 50px;
+    justify-content: space-between;
+}
+
+.footer__title {
+    color: rgb(228, 228, 228);
+    font-family: "Architects Daughter", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+}
+
+.footer__item {
+    margin-left: 40px;
+}
+
+.footer__text {
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+}
